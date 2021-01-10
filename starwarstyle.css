@@ -1,32 +1,77 @@
+body {
+    background-position: center;
+}
+
 h1 {
-    color: rgb(50, 157, 219);
+    color: rgb(19, 157, 248);
+    text-align: center;
+    font-size: 45px;
+}
+h2 {
+    color: rgba(242, 239, 245, 0.454);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
 }
 
 p {
     color: rgb(241, 235, 60);
+    border-style: 5px;
+    border-color: springgreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    line-height: 2px;
+}
+
+li {
+    color: lightblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
 }
 
 .empire {
-    background-color: red;
+    background-color: rgba(224, 1, 1, 0.45);
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 70%;
+    text-align: center;
+    list-style: none;
+    border: 5px;
+    display: block;
+    margin: auto;
 }
 .rway {
-    background-color: blue;
-    width: 70%;
+    background-color: rgba(7, 7, 241, 0.45);
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    text-align: center;
+    list-style: none;
+    border: 5px;
+    display: block;
+    margin: auto;
 }
 #blacky {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
+    text-align: center;
+
 }
 #luke {
     font-size: 30px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
+    text-align: center;
+    color: blue;
 }
 .soldier {
     border-style: dashed;
@@ -49,15 +94,22 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .imagines {
-    width: 70%;
-    text-align: center;
+    width: 60%;
+    height: auto;
+    padding: 2%;
+  display: block;
+  margin: auto;
 }
 #nofake {
     font-style: italic;
 }
 #vader {
     font-weight: bold;
+    text-align: center;
 }
 #Luke {
     font-weight: bolder;
+}
+ul {
+    list-style-type: none;
 }
